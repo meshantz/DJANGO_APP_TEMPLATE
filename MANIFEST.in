@@ -1,0 +1,5 @@
+include CHANGELOG
+include MANIFEST.in
+include README
+recursive-include {{ app_name }}/templates *
+recursive-include {{ app_name }}/static *
