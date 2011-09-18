@@ -22,22 +22,3 @@ Once you've got your version control going, you can use pip to install the distr
     pip install -e git@github.com:<username>/django-{{ app_name }}.git#egg=django-{{ app_name }}
 
 .. _django_extensions: https://github.com/django-extensions/django-extensions
-
-
-*remove everything from here up after you run* ``create_app``
-
-{{ app_name }}
-=====================================================================
-
-To install::
-
-    pip install https://github.com/<username>/django-{{ app_name }}.git
-
-Then add the ``{{ app_name }}`` to your installed apps. ::
-
-    INSTALLED_APPS = (
-        ...
-        '{{ app_name }}',
-        ...
-    )
-
