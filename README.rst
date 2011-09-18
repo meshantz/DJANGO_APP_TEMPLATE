@@ -37,4 +37,4 @@ distribution as an editable. ::
     pip install -e git@github.com:<username>/django-{{ app_name }}.git#egg=django-{{ app_name }}
 
 .. _django_extensions: https://github.com/django-extensions/django-extensions
-.. _fork: https://github.com/meshantz/django-extensions
+.. _fork: https://github.com/meshantz/django-extensions/tree/create_app_replacement
