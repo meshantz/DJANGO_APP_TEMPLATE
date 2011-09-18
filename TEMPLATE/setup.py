@@ -27,11 +27,11 @@ for dirpath, dirnames, filenames in os.walk('{{ app_name }}'):
         for f in filenames:
             data_files.append(os.path.join(prefix, f))
 
-setup(name='{{ app_name }}',
+setup(name='django-{{ app_name }}',
       version={{ app_name }}.get_version().replace(' ','-'),
-      author='PeaceWorks',
-      author_email='info@peaceworks.ca',
-      url='http://www.peaceworks.ca/',
+      author='{{ author }}',
+      author_email='{{ email }}',
+      url='https://github.com/{{ gituser }}/django-{{ app_name }}',
       description='django app: {{ app_name }}',
       packages=packages,
       package_dir={'{{ app_name }}': '{{ app_name }}',},
