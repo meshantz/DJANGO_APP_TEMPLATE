@@ -10,7 +10,7 @@ Usage
 The intention is to make use of the django_extensions_ command ``create_app``
 like so::
 
-    python manage.py create_app -t /path/to/DJANGO_APP_TEMPLATE -p /path/to/distributions {{ app_name }}
+    python manage.py create_app -t /path/to/DJANGO_APP_TEMPLATE/TEMPLATE -p /path/to/distributions {{ app_name }}
 
 Then, assuming you're using github for version control, you can initialize your
 new repository::
