@@ -3,9 +3,9 @@
 
 To install::
 
-    pip install https://github.com/<username>/django-{{ app_name }}.git
+    pip install https://github.com/{{ gituser }}/django-{{ app_name }}.git
 
-Then add the ``{{ app_name }}`` to your installed apps. ::
+Then add ``{{ app_name }}`` to your installed apps. ::
 
     INSTALLED_APPS = (
         ...
